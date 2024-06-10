@@ -15,12 +15,6 @@
 #define LOWER  1
 #define RAISE  2
 #define ADJUST 3
-
-&led_strip {
-       chain-length = <6>;
-       // chain-length = <38>; // Uncomment if using both per-key and underglow LEDs
-       // chain-length = <32>; // Uncomment if using only per-key LEDs.
-};
  
 
 /* NOTE: At the time of the creation of this keymap, there are no specified codes for 'eisuu' and 'kana' input in ZMK.
